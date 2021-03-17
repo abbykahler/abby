@@ -1,0 +1,421 @@
+ /* * {
+    
+} */
+@media only screen and ( max-width: 576px ) {
+    .main-nav li,.footer, .lg-1{
+        display: none;  
+    }
+    /* .projects{
+        display:inline;
+        max-width: 500px;
+    }
+    form{
+        text-align: center;
+        padding-bottom:20px;
+    } */
+}
+@media only screen and ( min-width: 768px ) {
+    .sm-4, .lg-1 {
+        display: none;
+        width: 100%;
+    }
+}
+@media only screen and ( min-width: 992px) {
+    .lg-1 , contact, .body{
+        display: block;
+    }
+    .sm-4, .med-2 {
+        display: none;
+    }
+}
+
+
+.home_button div{
+font: 200px;
+}
+
+
+
+
+
+
+/* //////////////////////////////////header  */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color:black;
+    padding-bottom: 10px;
+    position:fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    padding-left: 20px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+
+.nav-links, .logo {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(207, 119, 208, 0.8);
+    font-size: 24px;
+}
+
+.active {
+    display: block;
+}
+
+@media screen and (min-width: 350px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+        padding-top: 13px;;
+    }
+
+    .nav-links {
+        margin-left: 40px;
+    }
+
+
+
+    .logo:hover,
+    .nav-links:hover {
+        color: rgb(248,178,253);
+    }
+}
+
+/* ////////////////////////////////// header end */
+
+/* ////////////////////////////////// about page */
+.about{
+    background: rgb(14, 13, 14);
+    padding-top: 60px;
+
+} 
+.about h3{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+.about_top{
+    padding-top:30px;
+    padding-bottom: 10px;
+
+} 
+
+.about_bottom h1{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+} 
+/* ////////////////////////////////// about end */
+
+
+/* //////////////////////////////////PORTFOLIO */
+
+.portfolio h1{
+    color:white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.project2{
+    padding-left: 6%;
+}
+.projects button{
+    background-color:rgb(144, 121, 152);
+    font-size:18px;
+    
+
+}
+.row1 {
+    display: flex;
+
+}
+.myButton{
+    padding-top:15px;
+    
+}
+
+.project1 .btn:hover,.project2 .btn:hover,.project3 .btn:hover{
+    background-color: rgb(74, 79, 103);
+}
+.projects{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.projects img{
+    height: 200px;
+    width: 200px;
+}
+
+.logo_lang, .row1{
+    display: flex;
+    color: white;
+    padding-left: 15%;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-top: 12px;
+    justify-content: space-between;
+    width:90%;
+    text-align: center;
+    
+}
+.logo_lang img{
+    height: 50px;
+    width: 50px;
+}
+.lang h1{
+    color: white;
+    padding-top: 30px;
+}
+.logo_lang div {
+    font-size: 18px;
+}
+.lang{
+    padding-top: 20px;
+    
+}
+.home_button .btn{
+    background-color: rgb(171, 150, 150);
+}
+/* //////////////////////////////////PROJECTS END*/
+
+
+/* ////////////////////////////////// WORK */
+.work1 h3{
+    font-size: 55px;
+}
+.work1, .work2, .work3{
+    color: white;
+    border-style: solid;
+    border: width 1px;
+    width:60%;
+    height:60%;
+    margin-left: 20%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    
+}
+.work1 ul, .work2 ul, .work3 ul{
+    list-style-type:square;
+    list-style-position: inside;
+    text-align: left;
+    padding-top: 15px;
+
+}
+.work_page{
+    background-color: black;
+    padding-top: 10px;
+}
+.work_body{
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.work1 h5, .work2 h5, .work3 h5{
+    padding-top: 10px;
+}
+.work2 h5 {
+    padding-top:15px;
+}
+.work_top h1{
+    text-align:center;
+    color: white;
+    /* padding-top: 25px; */
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+/* ////////////////////////////////// EDUCATION */
+.edu p {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    /* padding-top: 12px; */
+}
+.edu img {
+    width: 65%;
+    height:20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edu_top h1{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+}
+
+.edu {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+.lyon, .mtsu,  .dojo {
+    /* position: absolute; */
+    width: 100%;
+    max-width: 100%;
+    /* padding-bottom: 50px; */
+}
+
+.lyon img, .mtsu img, .dojo img{    
+    width: 80%;
+    height: 420px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+/* /////////////CONTACT */
+
+@media only screen and (max-width: 768px){
+    .contact {
+        /* width: 100%; */
+        /* margin-left: 2%;  */
+    } 
+}
+
+.contact{
+    border-radius: 3px;
+    padding-top: 100px;
+    background: linear-gradient(to top, rgb(137, 196, 247) 10%, rgb(223, 137, 182) 90%) no-repeat;
+    height: 780px;
+    text-align: center; 
+    
+}
+.contact_body{
+    /* width: 440px; */
+    border: 1px solid #400485;
+    /* padding-top:50px; */
+    width:60%;
+    height:60%;
+    margin-left: 20%;
+    padding-bottom: 50px;
+    /* margin-top:5% */
+
+
+}
+.contact_body form{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+.env img, form h2, form h1{
+    padding-top:20px;
+
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+
+
+/* /////////////FOOTER */
+
+footer{
+    height: 90px;
+    background-color:white
+}
+.bottom{
+    padding-top: 35px;
+    text-align: center;
+}
+.bottom p{
+    padding-top:5px;
+    padding-bottom:10px;
+}
+
+
+/* ////////////////// TRIP PAGE */
+.trip_body{
+    height: 100%;
+    text-align: left;
+    color:black;
+    font-size: 20px;
+    border-left: 300px solid rgb(10, 11, 10);
+    border-right: 300px solid rgb(10, 11, 10);
+    border-bottom: 100px solid rgb(10, 11, 10);
+    padding-top: 70px;
+    /* border-top: 100px solid rgb(10, 11, 10); */
+}
+.trip_body img{
+    width: 69%;
+    height:30%;
+    padding-top: 10px;
+    
+}
+.trip_body p{
+    padding-top:20px;
+    
+}
+.trip_body h1{
+    padding-top:30px;
+    font-size: 60px;
+}
+
+.trip_center{
+    background-color: white;
+
+    /* width:40%; */
+    text-align: center;
+}
