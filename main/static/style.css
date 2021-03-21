@@ -9,9 +9,17 @@
     .lang {
         display: none;
     }
-    .parallax img{
-        width: 200px;
-   }
+    
+    .contact_body{
+        /* width: 440px; */
+        padding-top: 100px;
+
+    }
+
+    .row1 img{
+width: 200px;
+height:200px;
+}
     /* .projects{
         display:inline;
         max-width: 500px;
