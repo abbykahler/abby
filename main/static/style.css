@@ -4,6 +4,10 @@
 @media only screen and ( max-width: 576px ) {
     .main-nav li,.footer, .lg-1{
         display: none;  
+
+    }
+    .navbar {
+        width: auto;
     }
     /* .projects{
         display:inline;
