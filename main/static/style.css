@@ -6,9 +6,12 @@
         display: none;  
 
     }
-    .navbar {
-        width: auto;
+    .lang {
+        display: none;
     }
+    .parallax img{
+        width: 200px;
+   }
     /* .projects{
         display:inline;
         max-width: 500px;
