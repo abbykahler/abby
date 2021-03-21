@@ -10,16 +10,15 @@
         display: none;
     }
     
-    .contact_body{
+    .contact .contact_body{
         /* width: 440px; */
         padding-top: 100px;
-    }
-    .contact {
-        height:200px;
-    }
+        border-style: none;
     
-
-    
+    }
+    .parallax2, .parallax3, .parallax4{
+        display: none;
+    }
 
 
 }
