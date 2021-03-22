@@ -6,12 +6,13 @@
         display: none;  
 
     }
+    .logo_mobile .logo {
+        padding-left: 90px;
+    }
     .lang {
         display: none;
     }
-    /* .logo{
-        text-align: center;
-    } */
+
     .contact .contact_body{
         /* width: 440px; */
         padding-top: 100px;
@@ -63,6 +64,7 @@
     }
     .schools .dojo p, .schools .mtsu p,.schools .lyon p {
         font-size: 18px;
+        padding-left:10px;
     }
     .schools .dojo img, .schools .mtsu img,.schools .lyon img {
         height: 250px;
