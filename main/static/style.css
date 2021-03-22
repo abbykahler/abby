@@ -14,7 +14,9 @@
         /* width: 440px; */
         padding-top: 100px;
         border-style: none;
-    
+    }
+    .about_top .top_mobile h3{
+        font-size:30px;
     }
     .parallax2, .parallax3, .parallax4{
         display: none;
@@ -34,6 +36,10 @@
         width:200px;
         padding-left: 50px;
     }
+    .para1{
+        height:450px;
+    }
+   
 }
 @media only screen and ( min-width: 768px ) {
     .sm-4, .lg-1 {
