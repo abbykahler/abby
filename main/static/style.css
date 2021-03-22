@@ -56,7 +56,7 @@
 
     .trip_body{
         background-color: white;
-        padding-top:30px;
+        
         
     }
     .trip_body, .trip_center{
@@ -398,13 +398,13 @@ body {
 
 /* /////////////CONTACT */
 
-/* @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .contact {
         /* width: 100%; */
-        /* margin-left: 2%;  */
+        /* margin-left: 2%; 
     } 
 } */
-
+    }
 .contact{
     border-radius: 3px;
     padding-top: 100px;
