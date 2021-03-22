@@ -19,8 +19,21 @@
     .parallax2, .parallax3, .parallax4{
         display: none;
     }
+    .work_body .work1 h3{
+        font-size: 22px;
+    }
     
-
+    .work_body .work1, .work_body .work2, .work_body .work3{
+        width: 80%;   
+        padding-right: 10px; 
+    }
+    .work_body{
+        padding-right: 50px;;
+    }
+    .ver{
+        width:200px;
+        padding-left: 50px;
+    }
 }
 @media only screen and ( min-width: 768px ) {
     .sm-4, .lg-1 {
