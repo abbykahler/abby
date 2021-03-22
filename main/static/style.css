@@ -18,17 +18,32 @@
         border-style: none;
     }
     .about_top .top_mobile h3{
-        font-size:30px;
+        font-size:28px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-   
+
     .parallax3,.parallax2,  .parallax4{
         display: none;
     }
     .work_body .work1 h3{
         font-size: 22px;
+        
     }
-
-    
+    .portfolio h1{
+        padding-left: 8px;
+        padding-right: 8px;
+        
+    }
+    .projects .row1{
+        display: inline;
+    }
+    .projects .row1 .project2,.projects .row1 .project1{
+        padding-bottom: 12px;
+    }
+    .portfolio .row1 .project2 {
+        padding-right: 20px;
+    }
     .work_body .work1, .work_body .work2, .work_body .work3{
         width: 80%;   
         padding-right: 10px; 
