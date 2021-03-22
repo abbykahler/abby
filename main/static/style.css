@@ -20,12 +20,14 @@
     .about_top .top_mobile h3{
         font-size:30px;
     }
-    .parallax2, .parallax3, .parallax4{
+   
+    .parallax3,.parallax2,  .parallax4{
         display: none;
     }
     .work_body .work1 h3{
         font-size: 22px;
     }
+
     
     .work_body .work1, .work_body .work2, .work_body .work3{
         width: 80%;   
@@ -54,22 +56,31 @@
         height:50px;
     }
 
-    .trip_body{
+    .trip_head{
+        height: 100%;
         background-color: white;
-        
-        
+
+        /* background-color:white;         */
+        /* background-color: black;
+             */
     }
     .trip_body, .trip_center{
         display: inline;
-        
-        
         
     }
     .trip_body .trip_center h1{
         font-size: 30px;
         color: white;
+        background:black;
         width: 400px;
+        padding-bottom: 10px;
+        padding-top: 50px;
+
         
+    }
+    .bottom_trip{
+        padding-bottom:200px;
+        display:none;
     }
     .trip_body .trip_center p{
         font-size: 15px;
@@ -404,6 +415,7 @@ body {
         /* margin-left: 2%; 
     } 
 } */
+    }
     }
 .contact{
     border-radius: 3px;
