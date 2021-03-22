@@ -50,7 +50,26 @@
     .schools .dojo img, .schools .mtsu img,.schools .lyon img {
         height: 250px;
     }
-
+    .img_mobile img{
+        height:50px;
+    }
+    
+    .trip_body, .trip_center{
+        color:white;
+        
+    }
+    .trip_body .trip_center h1{
+        font-size: 30px;
+    }
+    .trip_body .trip_center p{
+        font-size: 22px;
+        text-align: center;  
+    }
+    .trip_body .trip_center img{
+        height: 200px;
+        width: 200px;
+    
+}
 }
 @media only screen and ( min-width: 768px ) {
     .sm-4, .lg-1 {
@@ -363,12 +382,12 @@ body {
 
 /* /////////////CONTACT */
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){
     .contact {
         /* width: 100%; */
         /* margin-left: 2%;  */
     } 
-}
+} */
 
 .contact{
     border-radius: 3px;
@@ -404,7 +423,7 @@ body {
 .container {
     position: relative;
     width: 50%;
-  }
+}
 
 
 
