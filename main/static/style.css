@@ -9,7 +9,9 @@
     .lang {
         display: none;
     }
-    
+    /* .logo{
+        text-align: center;
+    } */
     .contact .contact_body{
         /* width: 440px; */
         padding-top: 100px;
@@ -38,6 +40,12 @@
     }
     .para1{
         height:450px;
+    }
+    .copyright{
+        padding-left: 20px;
+    }
+    .img_mobile{
+        width:75px;
     }
    
 }
