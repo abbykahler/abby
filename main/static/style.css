@@ -53,23 +53,39 @@
     .img_mobile img{
         height:50px;
     }
-    
+
+    .trip_body{
+        background-color: white;
+        padding-top:30px;
+        
+    }
     .trip_body, .trip_center{
-        color:white;
+        display: inline;
+        
+        
         
     }
     .trip_body .trip_center h1{
         font-size: 30px;
+        color: white;
+        width: 400px;
+        
     }
     .trip_body .trip_center p{
-        font-size: 22px;
-        text-align: center;  
+        font-size: 15px;
+        text-align: left;  
+        padding-left: 12px;
+        padding-right: 12px;
     }
     .trip_body .trip_center img{
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 400px;
     
 }
+
+
+
+
 }
 @media only screen and ( min-width: 768px ) {
     .sm-4, .lg-1 {
