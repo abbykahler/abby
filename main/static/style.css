@@ -518,3 +518,7 @@ footer{
     /* width:40%; */
     text-align: center;
 }
+.trip {
+    border: 3px solid #070707;
+
+}
