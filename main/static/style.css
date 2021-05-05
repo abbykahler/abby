@@ -318,7 +318,7 @@ body {
     width: 50px;
 }
 .lang h1{
-    color: white;
+    color: rgb(252, 249, 249);
     padding-top: 30px;
 }
 .logo_lang div {
@@ -339,7 +339,7 @@ body {
     font-size: 55px;
 }
 .work1, .work2, .work3{
-    color: white;
+    color: rgb(249, 247, 247);
     border-style: solid;
     border: width 1px;
     width:60%;
@@ -357,7 +357,7 @@ body {
 
 }
 .work_page{
-    background-color: black;
+    background-color: rgb(9, 9, 9);
     padding-top: 10px;
 }
 .work_body{
@@ -373,7 +373,7 @@ body {
 }
 .work_top h1{
     text-align:center;
-    color: white;
+    color: rgb(247, 245, 245);
     /* padding-top: 25px; */
     padding-bottom: 20px;
     font-size: 60px;
@@ -381,7 +381,7 @@ body {
 
 /* ////////////////////////////////// EDUCATION */
 .edu p {
-    color: white;
+    color: rgb(251, 246, 246);
     text-align: center;
     font-size: 30px;
     /* padding-top: 12px; */
@@ -396,7 +396,7 @@ body {
 
 .edu_top h1{
     text-align: center;
-    color: white;
+    color: rgb(254, 252, 252);
     font-size: 55px;
 }
 
@@ -473,7 +473,7 @@ body {
 
 footer{
     height: 90px;
-    background-color:white
+    background-color:rgb(249, 248, 248)
 }
 .bottom{
     padding-top: 35px;
