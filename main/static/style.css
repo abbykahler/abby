@@ -519,6 +519,6 @@ footer{
     text-align: center;
 }
 .trip {
-    border: 3px solid #070707;
-
+    border-bottom: 10px solid #070707;
+    
 }
