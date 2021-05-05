@@ -255,7 +255,7 @@ body {
 
 .about_bottom h1{
     font-size: 50px;
-    color:white;
+    color:rgb(252, 251, 251);
     text-align: center;
     padding-top: 20px;
 } 
@@ -265,7 +265,7 @@ body {
 /* //////////////////////////////////PORTFOLIO */
 
 .portfolio h1{
-    color:white;
+    color:rgb(251, 245, 245);
     text-align: center;
     padding-top: 25px;
 }
@@ -303,7 +303,7 @@ body {
 
 .logo_lang, .row1{
     display: flex;
-    color: white;
+    color: rgb(255, 255, 255);
     padding-left: 15%;
     padding-right: 40px;
     padding-bottom: 50px;
