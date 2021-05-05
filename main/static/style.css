@@ -507,9 +507,7 @@ footer{
     padding-top:20px;
     font-size: 18px;
     width:90%;
-    margin-left: 6%;
-
-    
+    margin-left: 6%;  
 }
 .trip_body h1{
     padding-top:30px;
@@ -518,8 +516,6 @@ footer{
 
 .trip_center{
     background-color: rgb(251, 248, 248);
-
-    /* width:40%; */
     text-align: center;
 }
 .trip {
