@@ -447,20 +447,13 @@ body {
     height:60%;
     margin-left: 20%;
     padding-bottom: 50px;
-    /* margin-top:5% */
-
-
 }
 .contact_body form{
     padding-top: 10px;
-    padding-bottom: 20px;
-    
-    
-    
+    padding-bottom: 20px;  
 }
 .env img, form h2, form h1{
     padding-top:20px;
-
 }
 .container {
     position: relative;
@@ -468,9 +461,7 @@ body {
 }
 
 
-
 /* /////////////FOOTER */
-
 footer{
     height: 90px;
     background-color:rgb(249, 248, 248)
