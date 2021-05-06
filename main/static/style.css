@@ -226,8 +226,6 @@ body {
         margin-left: 40px;
     }
 
-
-
     .logo:hover,
     .nav-links:hover {
         color: rgb(248,178,253);
@@ -240,7 +238,6 @@ body {
 .about{
     background: rgb(14, 13, 14);
     padding-top: 60px;
-
 } 
 .about h3{
     text-align: center;
@@ -250,7 +247,6 @@ body {
 .about_top{
     padding-top:30px;
     padding-bottom: 10px;
-
 } 
 
 .about_bottom h1{
@@ -276,8 +272,6 @@ body {
 .projects button{
     background-color:rgb(144, 121, 152);
     font-size:18px;
-    
-
 }
 .row1 {
     display: flex;
