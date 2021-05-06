@@ -3,8 +3,7 @@
 } */
 @media only screen and ( max-width: 576px ) {
     .main-nav li,.footer, .lg-1{
-        display: none;  
-
+        display: none;
     }
     .logo_mobile .logo {
         padding-left: 90px;
@@ -25,8 +24,7 @@
     }
 
     .work_body .work1 h3{
-        font-size: 22px;
-        
+        font-size: 22px; 
     }
     .portfolio h1{
         padding-left: 8px;
@@ -96,10 +94,8 @@
     }
     .trip_body .trip_center img{
         height: 250px;
-        width: 400px;
-    
+        width: 400px;   
 }
-
 
 }
 @media only screen and ( min-width: 768px ) {
@@ -459,14 +455,13 @@ footer{
 .trip_body img{
     width: 69%;
     height:30%;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
 }
 .trip_body p{
     padding-top:20px;
     font-size: 18px;
-    width:90%;
-    margin-left: 6%;  
+    width:70%;
+    margin-left: 15%;  
 }
 .trip_body h1{
     padding-top:30px;
@@ -479,5 +474,4 @@ footer{
 }
 .trip {
     border-bottom: 10px solid #070707;
-    
 }
