@@ -384,7 +384,6 @@ body {
     color: rgb(251, 246, 246);
     text-align: center;
     font-size: 30px;
-    /* padding-top: 12px; */
 }
 .edu img {
     width: 65%;
@@ -405,7 +404,6 @@ body {
     padding-top: 10px;
 }
 
-
 .lyon, .mtsu,  .dojo {
     /* position: absolute; */
     width: 100%;
@@ -418,9 +416,7 @@ body {
     height: 420px;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
-
 /* /////////////CONTACT */
 
 @media only screen and (max-width: 768px){
@@ -437,7 +433,6 @@ body {
     background: linear-gradient(to top, rgb(137, 196, 247) 10%, rgb(223, 137, 182) 90%) no-repeat;
     height: 820px;
     text-align: center; 
-    
 }
 .contact_body{
     /* width: 440px; */
