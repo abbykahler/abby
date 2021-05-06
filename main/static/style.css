@@ -310,8 +310,7 @@ body {
     padding-top: 12px;
     justify-content: space-between;
     width:90%;
-    text-align: center;
-    
+    text-align: center; 
 }
 .logo_lang img{
     height: 50px;
@@ -347,14 +346,12 @@ body {
     margin-left: 20%;
     padding-top: 25px;
     padding-bottom: 20px;
-    
 }
 .work1 ul, .work2 ul, .work3 ul{
     list-style-type:square;
     list-style-position: inside;
     text-align: left;
     padding-top: 15px;
-
 }
 .work_page{
     background-color: rgb(9, 9, 9);
@@ -363,7 +360,6 @@ body {
 .work_body{
     padding-bottom: 20px;
     text-align: center;
-    
 }
 .work1 h5, .work2 h5, .work3 h5{
     padding-top: 10px;
