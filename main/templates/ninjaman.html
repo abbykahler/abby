@@ -217,7 +217,6 @@
         document.getElementById('pinky').style.left = pinky.x * 40 + 'px'
     }
     function checkMovement(){
-       
         for (var i = 0; i < ghosts.length; i++){
             var ghost = ghosts[i];
             if (world[ghost.y][ghost.x - 1] != 1 
